@@ -1,0 +1,14 @@
+h2. Opencart - USPS Order Status Update
+
+p. This extension uses vQmod to add 2 inputs in the order history section, one for the tracking number and one for the date the package was shipped.  If either field is left blank, they will be ignored.
+
+h3. How to install it
+
+p. Simply copy the vQmod folder to your Opencart install root folder.  You MUST have vQmod installed in order for this to work.  Once the files have been copied, you should see the 2 new fields when you edit an order's history.
+p. Paste the USPS tracking number and then change the date (if needed) to the correct date the order was shipped on.  You can click "Notify Customer" and it will send them an email with the tracking number linked to the USPS website with tracking information for that number.
+You will also see the linked tracking number in the order history, making it easy to check on the tracking status of the order yourself.
+p. The tracking information will be appended to any comment given in the comment field.
+
+h3. What about support, suggestions, etc?
+
+There's a reason this extension is free.  It is unsupported and while you're welcome to make suggestions, there aren't any plans to change it due to time limitations.  I could add additional shipping carriers, make it more flexible, etc., but I needed exactly what this extension does and decided to share it.
